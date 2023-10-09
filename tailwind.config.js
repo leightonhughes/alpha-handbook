@@ -3,7 +3,7 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-            'heading': ['Recoleta'],
+            'heading': ['CalSans'],
             'body': ['BasisGrotesquePro'],
         },
       },

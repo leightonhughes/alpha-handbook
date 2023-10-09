@@ -1,13 +1,13 @@
 <template>
   <div class="handbook-footer">
     <a
-      href="https://melbournecatholic.org"
+      href="https://alpha.org.au"
       target="_blank"
       rel="noopener"
     >
       <img
-        src="/img/cam-logo.svg"
-        aria-label="Melbourne Catholic"
+        src="/img/alpha-logo.svg"
+        aria-label="Alpha Australia"
       />
     </a>
   </div>

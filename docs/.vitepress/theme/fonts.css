@@ -3,26 +3,8 @@
 /* Recoletta */
 
 @font-face {
-  font-family: 'Recoleta';
-  src: url('./fonts/recoleta/Recoleta-Medium/font.woff2') format('woff2'), url('../fonts/recoleta/Recoleta-Medium/font.woff') format('woff');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Recoleta';
-  src: url('./fonts/recoleta/Recoleta-SemiBold/font.woff2') format('woff2'), url('../fonts/recoleta/Recoleta-SemiBold/font.woff') format('woff');
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'Recoleta';
-  src: url('./fonts/recoleta/Recoleta-Regular/font.woff2') format('woff2'), url('../fonts/recoleta/Recoleta-Regular/font.woff') format('woff');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Recoleta';
-  src: url('./fonts/recoleta/Recoleta-Light/font.woff2') format('woff2'), url('../fonts/recoleta/Recoleta-Light/font.woff') format('woff');
-  font-weight: 300;
+  font-family: 'CalSans';
+  src: url('./fonts/CalSans-SemiBold.woff2') format('woff2');
 }
 
 /* Basis Grotesque */

@@ -2,9 +2,9 @@
     --vp-c-brand: #3b82f6;
     --vp-c-brand-light: #3b82f6;
     --vp-c-text-1:#1f2937;
-    --vp-button-brand-bg: #000000;
-    --vp-button-brand-hover-bg: #383838;
-    --vp-button-brand-active-bg: #383838;
+    --vp-button-brand-bg: #e42312;
+    --vp-button-brand-hover-bg: #e42312;
+    --vp-button-brand-active-bg: #e42312;
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(220deg, #00dfd8, #007cf0) !important;
     --vp-home-hero-image-background-image: linear-gradient(220deg, #00dfd8,  #007cf0) !important;
@@ -14,12 +14,12 @@
 .dark {
     --vp-c-text-1: var(--vp-c-text-dark-1);
     --vp-c-brand: var(--vp-c-text-dark-1);
-    --vp-button-brand-bg: #FFFFFF;
-    --vp-button-brand-hover-bg: #CCCCCC;
-    --vp-button-brand-active-bg: #CCCCCC;
-    --vp-button-brand-text: #000000;
-    --vp-button-brand-hover-text: #000000;
-    --vp-button-brand-active-text: #000000;
+    --vp-button-brand-bg: #e42312;
+    --vp-button-brand-hover-bg: #e42312;
+    --vp-button-brand-active-bg: #e42312;
+    --vp-button-brand-text: #FFFFFF;
+    --vp-button-brand-hover-text: #FFFFFF;
+    --vp-button-brand-active-text: #FFFFFF;
     --vp-c-brand: #43A4FF;
 }
 
