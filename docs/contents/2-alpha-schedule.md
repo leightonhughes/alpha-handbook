@@ -15,8 +15,8 @@ description: Alpha Schedule
 
 ### Week 1 email template
 
-#### To: Helpers
-#### Subject: Week 1 schedule and small group allocations
+**To: Helpers**
+**Subject: Week 1 schedule and small group allocations**
 
 Hi everyone!
 
@@ -31,23 +31,23 @@ Coordinator Name
 
 ### Week 1 email follow up
 
-#### To: Guests
-#### BCC: Helpers
-#### Subject: 
+**To: Guests**
+**BCC: Helpers**
+**Subject:**
 
 ### Week 2 email reminder
 
-#### To: Guests
-#### BCC: Helpers
-#### Subject:
+**To: Guests**
+**BCC: Helpers**
+**Subject:**
 
 ### Week 2 email follow up
 
-#### To: Guests
-#### BCC: Helpers
-#### Subject:
+**To: Guests**
+**BCC: Helpers**
+**Subject:**
 
 ### Week 3 email reminder
-#### To:
-#### BCC:
-#### Subject:
+**To:**
+**BCC:**
+**Subject:**
