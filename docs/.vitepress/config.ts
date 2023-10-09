@@ -14,7 +14,7 @@ export default defineConfig({
       'script',
       {
         async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-7ND32MWZ66',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-######',
       },
     ],
     [
@@ -27,8 +27,10 @@ export default defineConfig({
     repo: 'leightonhughes/alpha-handbook',
     docsDir: 'docs',
     base: "/contents/",
-    editLinks: true,
-    editLinkText: 'Edit this page on GitHub',
+    editLink: {
+      pattern: 'https://github.com/leightonhughes/alpha-handbook/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    }
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
