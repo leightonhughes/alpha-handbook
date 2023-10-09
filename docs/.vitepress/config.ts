@@ -25,6 +25,7 @@ export default defineConfig({
   ],
   themeConfig: {
     repo: 'leightonhughes/alpha-handbook',
+    logo: '/img/alpha-logo.svg',
     docsDir: 'docs',
     base: "/contents/",
     editLink: {
