@@ -22,8 +22,7 @@ features:
       and will be version controlled.
   - icon: 🙋🏻‍♂️
     title: Support and help
-    details: If you have any questions or need help, please contact the <a href="mailto:alphagoodshepherdgp@gmail.com">Alpha Good Shepherd
-      Communications Office</a>.
+    details: If you have any questions or need help, please contact the <a href="mailto:alphagoodshepherdgp@gmail.com">Alpha Good Shepherd</a>.
 ---
 
 <script setup>
