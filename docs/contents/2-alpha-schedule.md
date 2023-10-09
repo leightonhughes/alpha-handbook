@@ -13,9 +13,10 @@ description: Alpha Schedule
 
 - Our email account is alphagoodshepherd@gmail.com
 
-### Week 1 email
+### Week 1 email template
+
 #### To: Helpers
-#### subject: Week 1 schedule and small group allocations
+#### Subject: Week 1 schedule and small group allocations
 
 Hi everyone!
 
@@ -29,5 +30,24 @@ God bless,
 Coordinator Name
 
 ### Week 1 email follow up
+
 #### To: Guests
 #### BCC: Helpers
+#### Subject: 
+
+### Week 2 email reminder
+
+#### To: Guests
+#### BCC: Helpers
+#### Subject:
+
+### Week 2 email follow up
+
+#### To: Guests
+#### BCC: Helpers
+#### Subject:
+
+### Week 3 email reminder
+#### To:
+#### BCC:
+#### Subject:
