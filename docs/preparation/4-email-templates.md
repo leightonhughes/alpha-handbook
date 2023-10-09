@@ -1,11 +1,11 @@
 ---
-title: Email Communication
+title: Email Templates
 date: 2023-10-09T06:14:23.283Z
 order: "16"
 description: email-communication
 ---
 
-# Email communication
+# Email templates
 
 Our email account is alphagoodshepherd@gmail.com
 
