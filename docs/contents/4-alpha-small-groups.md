@@ -7,5 +7,12 @@ description: Alpha Small Groups
 
 # Small Groups
 
-- Information about small groups, including the role of a small group leader.
-- Expectations for small group discussions.
+## How to make up your small groups from your guests
+
+## The roles
+
+### Small group leader
+
+### Small group helper
+
+## Expectations
