@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /introduction/getting-started
+      link: /introduction/1-welcome
 features:
   - icon: ⚡️
     title: Browse Alpha documentation fast

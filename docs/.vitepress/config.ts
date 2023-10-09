@@ -47,7 +47,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get Started', link: '/introduction/getting-started' }
+      { text: 'Get Started', link: '/introduction/1-welcome' }
     ],
     outline: {
       label: "In this Chapter",
