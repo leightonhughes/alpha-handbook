@@ -10,7 +10,7 @@ description: email-communication
 Our email account is alphagoodshepherd@gmail.com
 
 
-## Preparation 1 template (1 month before Alpha start)
+## 1 month before Alpha start
 
 **To: Promo team**<br>
 **Subject: Promo and marketing our Alpha**
@@ -35,7 +35,7 @@ God bless,
 Coordinator Name
 
 
-## Preparation 2 template (2 weeks before Alpha start)
+## 2 weeks before Alpha start
 
 **To: Leadership team**<br>
 **Subject: Alpha links and roles from meeting**
@@ -60,7 +60,7 @@ God bless,
 Coordinator Name
 
 
-## Preparation 3 template (1 week before Alpha start)
+## 1 week before Alpha start
 
 **To: Leadership team**<br>
 **Subject: Alpha is BACK!**
