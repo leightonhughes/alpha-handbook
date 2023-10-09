@@ -10,7 +10,7 @@ description: email-communication
 Our email account is alphagoodshepherd@gmail.com
 
 
-## 1 month before Alpha start
+## 1 month before
 
 **To: Promo team**<br>
 **Subject: Promo and marketing our Alpha**
@@ -35,7 +35,7 @@ God bless,
 Coordinator Name
 
 
-## 2 weeks before Alpha start
+## 2 weeks before
 
 **To: Leadership team**<br>
 **Subject: Alpha links and roles from meeting**
@@ -60,7 +60,7 @@ God bless,
 Coordinator Name
 
 
-## 1 week before Alpha start
+## 1 week before
 
 **To: Leadership team**<br>
 **Subject: Alpha is BACK!**
@@ -81,7 +81,7 @@ God bless,
 Coordinator Name
 
 
-## Week 1 email template
+## Week 1
 
 **To: Helpers**<br>
 **Subject: Week 1 schedule and small group allocations**
@@ -98,11 +98,7 @@ I'm printing the schedule and small group list for each of us, which we will be 
 God bless,
 Coordinator Name
 
-## Email templates
-
-## Week 1
-
-## Follow up
+### Follow up
 
 **To: Guests**<br>
 **BCC: Helpers**<br>
