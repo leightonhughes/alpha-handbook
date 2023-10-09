@@ -66,9 +66,9 @@ some text[^ this is a footnote]
 
 | Items  | PDFs                                                |
 | ------ | --------------------------------------------------- |
-| Item 1 | [Download file](/media/#) |
-| Item 2 | [Download file](/media/#) |
-| Item 3 | [Download file](/media/#) |
+| Item 1 | Download file |
+| Item 2 | Download file |
+| Item 3 | Download file |
 
 ## <span id="anchored-text">Anchored Text</span>
 
