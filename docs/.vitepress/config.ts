@@ -61,12 +61,27 @@ export default defineConfig({
         items: SidebarBuilder.get.filesAndOrder('./docs/introduction')
       },
       {
-        text: 'Chapters',
-        collapsed: false,
-        items: SidebarBuilder.get.filesAndOrder('./docs/contents')
+        text: 'Preparing Your Alpha',
+        collapsed: true,
+        items: SidebarBuilder.get.filesAndOrder('./docs/preparation')
       },
       {
-        items: SidebarBuilder.get.filesAndOrder('./docs/pages', ['handbook-formatting'])
+        text: 'Alpha Content',
+        collapsed: true,
+        items: SidebarBuilder.get.filesAndOrder('./docs/content')
+      },
+      {
+        text: 'Small Groups',
+        collapsed: true,
+        items: SidebarBuilder.get.filesAndOrder('./docs/small-groups')
+      },
+      {
+        text: 'Post Alpha',
+        collapsed: true,
+        items: SidebarBuilder.get.filesAndOrder('./docs/post-alpha')
+      },
+      {
+        items: SidebarBuilder.get.filesAndOrder('./docs/pages', ['changelog', 'handbook-formatting'])
       },
     ]
   },

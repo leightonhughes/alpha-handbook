@@ -7,12 +7,13 @@ description: email-communication
 
 # Email communication
 
-- Our email account is alphagoodshepherd@gmail.com
+Our email account is alphagoodshepherd@gmail.com
 
 ## Week 1 email template
 
-**To: Helpers**
+**To: Helpers**<br>
 **Subject: Week 1 schedule and small group allocations**
+
 
 Hi everyone!
 
@@ -31,34 +32,34 @@ Coordinator Name
 
 ## Follow up
 
-**To: Guests**
-**BCC: Helpers**
+**To: Guests**<br>
+**BCC: Helpers**<br>
 **Subject:**
 
 ## Week 2
 
 ### Reminder
 
-**To: Guests**
-**BCC: Helpers**
+**To: Guests**<br>
+**BCC: Helpers**<br>
 **Subject:**
 
 ### Follow up
 
-**To: Guests**
-**BCC: Helpers**
+**To: Guests**<br>
+**BCC: Helpers**<br>
 **Subject:**
 
 ## Week 3
 
 ### Reminder
 
-**To: Guests**
-**BCC: Helpers**
+**To: Guests**<br>
+**BCC: Helpers**<br>
 **Subject:**
 
 ### Follow up
 
-**To: Guests**
-**BCC: Helpers**
+**To: Guests**<br>
+**BCC: Helpers**<br>
 **Subject:**
