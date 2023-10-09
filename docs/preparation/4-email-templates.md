@@ -83,7 +83,9 @@ Coordinator Name
 
 ## Week 1
 
-**To: Helpers**<br>
+### Leader schedule
+
+**To: Leaders**<br>
 **Subject: Week 1 schedule and small group allocations**
 
 
@@ -112,6 +114,11 @@ Coordinator Name
 **BCC: Helpers**<br>
 **Subject:**
 
+### Leader schedule
+
+**To: Leaders**<br>
+**Subject: Week 2 schedule and small group allocations**
+
 ### Follow up
 
 **To: Guests**<br>
@@ -125,6 +132,11 @@ Coordinator Name
 **To: Guests**<br>
 **BCC: Helpers**<br>
 **Subject:**
+
+### Leader schedule
+
+**To: Leaders**<br>
+**Subject: Week 3 schedule**
 
 ### Follow up
 
