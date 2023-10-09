@@ -1,0 +1,80 @@
+:root {
+    --vp-c-brand: #3b82f6;
+    --vp-c-brand-light: #3b82f6;
+    --vp-c-text-1:#1f2937;
+    --vp-button-brand-bg: #000000;
+    --vp-button-brand-hover-bg: #383838;
+    --vp-button-brand-active-bg: #383838;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(220deg, #00dfd8, #007cf0) !important;
+    --vp-home-hero-image-background-image: linear-gradient(220deg, #00dfd8,  #007cf0) !important;
+    --vp-home-hero-image-filter: blur(40px);
+}
+
+.dark {
+    --vp-c-text-1: var(--vp-c-text-dark-1);
+    --vp-c-brand: var(--vp-c-text-dark-1);
+    --vp-button-brand-bg: #FFFFFF;
+    --vp-button-brand-hover-bg: #CCCCCC;
+    --vp-button-brand-active-bg: #CCCCCC;
+    --vp-button-brand-text: #000000;
+    --vp-button-brand-hover-text: #000000;
+    --vp-button-brand-active-text: #000000;
+    --vp-c-brand: #43A4FF;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+.VPHero .image-bg {
+    @apply bg-none;
+}
+
+
+.VPHero .name,
+.VPHero .text {
+    @apply text-4xl sm:text-5xl md:text-7xl leading-none font-heading font-bold;
+}
+
+.VPFeature {
+    @apply border border-solid border-neutral-100 !important;
+    @apply bg-white !important;
+}
+
+.dark .VPFeature {
+    @apply bg-transparent !important;
+    @apply border-neutral-800 !important;
+}
+
+.VPFeature .icon {
+    @apply border border-neutral-200 border-solid bg-neutral-100 !important;
+}
+
+.VPFeature .icon svg {
+    @apply p-2;
+}
+
+.dark .VPFeature .icon {
+    @apply border border-neutral-700 border-solid bg-neutral-800 !important;
+}
+
+.VPButton.medium {
+    @apply rounded-lg !important;
+}
+
+.content-container h1, .content-container h2, .content-container h3, .content-container h4, .content-container h5, .content-container h6 {
+    @apply font-heading !font-medium;
+}
+
+.vp-doc table {
+    @apply table w-full;
+}

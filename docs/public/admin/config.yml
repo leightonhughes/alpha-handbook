@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  repo: leightonhughes/alpha-handbook
+  branch: main
+media_folder: "docs/public/media"
+public_folder: "/media"
+publish_mode: editorial_workflow
+collections:
+  - label: "Introduction"
+    name: "introduction"
+    folder: "docs/introduction"
+    summary: '{{title}}'
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Order in sidebar", name: "order", widget: "string" }
+      - { label: "Meta description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Contents"
+    name: "contents"
+    folder: "docs/contents"
+    summary: '{{title}}'
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Order in sidebar", name: "order", widget: "string" }
+      - { label: "Meta description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    folder: "docs/pages"
+    summary: '{{title}}'
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Meta description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Home"
+    name: "home"
+    folder: "docs"
+    summary: '{{title}}'
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Meta description", name: "description", widget: "string" }
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        fields:
+          - { label: "Heading", name: "text", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - label: "Actions"
+            name: "actions"
+            widget: "list"
+            label_singular: "Button"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Theme", name: "theme", widget: "string" }
+      - label: "Features"
+        name: "features"
+        widget: "list"
+        label_singular: "Feature"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Details", name: "details", widget: "markdown" }
+          - { label: "Icon", name: "icon", widget: "string" }

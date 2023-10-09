@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <!-- Fix: https://answers.netlify.com/t/netlify-cms-markdown-editor-wonkness/79815 -->
+    <style>
+      div[data-slate-editor] {
+          -webkit-user-modify: read-write!important;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Add a menu:
+    Log in / Sign up - when the user is not logged in
+    Username / Log out - when the user is logged in
+    -->
+    <!-- <div data-netlify-identity-menu></div> -->
+
+
+    <!-- Add a simpler button:
+      Simple button that will open the modal.
+      <div data-netlify-identity-button>Login with Netlify Identity</div>
+    -->
+    
+
+    <!-- Include the script that builds the page and powers Decap CMS -->
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+    <script>
+      var PostPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          return h('div', {},
+            h('div', {"className": "text"}, this.props.widgetFor('body'))
+          );
+        }
+      });
+
+      CMS.registerPreviewTemplate("posts", PostPreview);
+      CMS.registerPreviewStyle('./preview.css');
+
+      CMS.registerEditorComponent({
+        label: 'File',
+        id: 'file',
+
+        fields: [
+          {
+            label: 'Link text',
+            name: 'linkText',
+          },
+          {
+            label: 'URL/File',
+            name: 'file',
+            widget: 'file',
+            media_library: {
+              allow_multiple: false,
+            },
+          },
+        ],
+
+        pattern: /media (\S+)\s/,
+
+        fromBlock: match =>
+          match && {
+            file: match[2],
+            linkText: match[1],
+            title: match[4],
+          },
+
+        toBlock: ({ file, linkText, title }) =>
+          `[${linkText || 'Download file'}](${file || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
+        
+        toPreview: function(obj) {
+          return (
+            'File'
+          );
+        },
+      });
+    </script>
+  </body>
+</html>
