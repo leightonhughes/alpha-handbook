@@ -30,7 +30,7 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/leightonhughes/alpha-handbook/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
-    }
+    },
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
