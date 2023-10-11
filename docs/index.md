@@ -5,7 +5,7 @@ date: 2023-03-02T09:10:19.017Z
 order: "1"
 description: The Running Alpha Handbook
 hero:
-  text: The Running Alpha Handbook
+  text: The Good Shepherd Alpha Handbook
   tagline: ‘But everything should be done in a fitting and orderly way.’ (1
     Corinthians 14:40)
   actions:
@@ -13,16 +13,18 @@ hero:
       text: Get Started
       link: /introduction/1-welcome
 features:
-  - icon: ⚡️
-    title: Browse Alpha documentation fast
-    details: Lightning fast search and easy access to the information your parish needs.
   - icon: 📝
-    title: A ‘living’ document
-    details: There will be amendments, additions and changes as the occasion demands
-      and will be version controlled.
+    title: <a href="/preparation/introduction.html">Preparing your Alpha</a>
+    details: <a href="/preparation/1-introduction.html">Get Started -></a>
+  - icon: 🎥
+    title: <a href="/content/introduction.html">The Alpha Content</a>
+    details: <a href="/content/1-introduction.html">Get Started -></a>
   - icon: 🙋🏻‍♂️
-    title: Support and help
-    details: If you have any questions or need help, please contact the <a href="mailto:alphagoodshepherdgp@gmail.com">Alpha Good Shepherd</a>.
+    title: <a href="/small-groups/introduction.html">Small Group Tips</a>
+    details: <a href="/small-groups/1-introduction.html">Get Started -></a>
+  - icon: 📆
+    title: <a href="/post-alpha/introduction.html">Post Alpha follow up</a>
+    details: <a href="/post-alpha/1-introduction.html">Get Started -></a>
 ---
 
 <script setup>

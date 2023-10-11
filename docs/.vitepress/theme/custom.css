@@ -72,7 +72,7 @@
 }
 
 .content-container h1, .content-container h2, .content-container h3, .content-container h4, .content-container h5, .content-container h6 {
-    @apply font-heading !font-medium;
+    @apply font-heading !font-medium !tracking-normal;
 }
 
 .vp-doc table {

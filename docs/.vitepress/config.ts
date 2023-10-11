@@ -57,7 +57,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Introduction',
-        collapsed: false,
+        collapsed: true,
         items: SidebarBuilder.get.filesAndOrder('./docs/introduction')
       },
       {
