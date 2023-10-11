@@ -23,8 +23,6 @@ Setting up a dinner and dining area for an Alpha night involves creating a welco
 
 ## Instructions
 
-## Tables and chairs
-
 1. Planning and Layout:
 - Plan the seating arrangement: Determine the seating layout based on the number of attendees and the purpose of the event (e.g., banquet, potluck, fundraising dinner).
 - Consider accessibility: Ensure there are clear paths for attendees to move around, especially if it's a buffet-style dinner.
